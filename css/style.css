@@ -1570,7 +1570,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    padding:20px;
     max-height: 70px;
     max-width: 70px;
     border-radius: 50%;
