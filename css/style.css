@@ -1524,8 +1524,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 768px) {
   #header #logo h1 {
-    display:none;
+    font-size: 28px;
      
+  }
+    #header #logo img {
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    border:2px solid white;
+    display:none;
   }
   #contact .contact-address,
   #contact .contact-phone,
