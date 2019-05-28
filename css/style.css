@@ -124,7 +124,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header #Avatar{
-  width:100px;
+  width:60%;
+  height:auto;
   border-radius: 50%;
   border:2px solid white;
 }
