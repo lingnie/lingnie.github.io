@@ -1570,10 +1570,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 75px;
+    max-width: 75px;
     border-radius: 20%;
-    border:1px solid rgba(255, 255, 255, 0);
+    border:1px solid white;
   }
 
   #intro h2 {
