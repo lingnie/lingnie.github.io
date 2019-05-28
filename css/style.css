@@ -1570,8 +1570,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    height: 50px;
-    width: 50px;
+    max-height: 50px;
+    max-width: 50px;
   }
 
   #intro h2 {
