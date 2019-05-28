@@ -1551,6 +1551,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     display:none;
      
   }
+  #header #logo {
+    max-height: 30px;
+    max-width: 30px;
+    border-radius: 50%;
+    border:2px solid white;
+  }
   #testimonials .testimonial-item p {
     width: 80%;
   }
