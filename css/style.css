@@ -232,22 +232,24 @@ h6 {
   text-align: center;
 }
 
+#intro h3 {
+  position: absolute;
+  top: 80px;
+  left: 160px;
+  color: #fff;
+  /* margin-bottom: 30px; */
+  font-size: 200%;
+  font-weight: 70;
+}
+
 #intro h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-#intro h1 {
-  position: absolute;
-  top: 180px;
-  left: 70px;
-  color: #fff;
-  margin-bottom: 30px;
-  font-size: 200%;
-  font-weight: 70;
-}
+
 
 
 #intro p {
@@ -973,7 +975,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item figure {
   background: #000;
   overflow: hidden;
-  height: 240px;
+  height: 220px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
@@ -1534,6 +1536,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 @media (min-width: 768px) {
+
   #nav-menu-container {
     display: none;
   }
@@ -1544,8 +1547,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #header #logo h1 {
     display:none;
-     
+
   }
+
+
 
   #contact .contact-address,
   #contact .contact-phone,
@@ -1570,7 +1575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #header #logo h1 {
     display:none;
-     
+
   }
   #testimonials .testimonial-item p {
     width: 80%;
@@ -1580,11 +1585,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 1024px) {
   #header #logo h1 {
     display:none;
-     
+
   }
+
+  #intro h3 {
+    position: absolute;
+    top: 80px;
+    left: 220px;
+  }
+
   #header #logo {
     padding-left: 60px;
   }
+
 
   #intro p {
     width: 60%;
@@ -1614,6 +1627,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 70px;
     border-radius: 50%;
     border:2px solid white;
+    display:none;
+  }
+
+  #intro h3 {
     display:none;
   }
 
